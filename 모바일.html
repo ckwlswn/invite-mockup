@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 파비콘 규격 32x32 , 128x128-->
+  <link rel="shortcut icon" href="icon.ico">
+  <!-- 아이콘 -->
+  <link rel="apple-touch-icon-recomposed" href="icon.png">
+  <!-- 오픈그래프 -->
+  <meta property="og:dscription" content="김00 주00 결혼식에 초대합니다">
+  <meta property="og:image" content="https://images.pexels.com/photos/2959192/pexels-photo-2959192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+  <title>Mobile Invitation</title>
+  <style>
+    body {
+      text-align: center;
+    }
+    h1 {
+      background: #98ad76;
+      margin-top: 50px;
+      color: #fff;
+      font-size: 32px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    #app {
+      position: relative;
+      width: 500px;
+      height: 800px;
+      background-image: url('./phone.png');
+      overflow: hidden;
+      margin: auto;
+    }
+    #app > .wrapper {
+      position: absolute;
+      left: 100px;
+      top: 150px;
+      width: 283px;
+      height: 480px;
+      overflow: hidden;
+      box-sizing: border-box;;
+      /* border: 1px solid red; */
+    }
+  </style>
+</head>
+<body>
+  <h1>Mobile Invitation</h1>
+  <div id="app">
+    <div class="wrapper">
+      <iframe 
+        width="283" 
+        height="667" 
+        src="https://ckwlswn.github.io/mobile-invite/" frameborder="0"></iframe>
+    </div>
+  </div>
+
+</body>
+</html>
